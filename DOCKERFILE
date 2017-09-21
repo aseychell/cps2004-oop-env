@@ -5,7 +5,7 @@ VOLUME "/project"
 WORKDIR "/project"
 
 RUN apt-get update && \    
-    apt-get install gcc-multilib g++-multilib cmake wget openjdk-8-jdk -y  && \
+    apt-get install vim build-essential wget openjdk-8-jdk nodejs -y  && \
     apt-get clean autoclean && \
     apt-get autoremove -y
 
