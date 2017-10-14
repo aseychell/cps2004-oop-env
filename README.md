@@ -16,6 +16,6 @@ environment.
 
 1. Install docker
 2. Make sure you share your hard drive with docker (check your docker settings)
-3. Execute `docker run --rm -it -v C:/dev/trees/cpp:/project cps2004-oopenv`, replacing "C:/dev/trees/cpp" with the directory you want to work in.
+3. Execute `docker run --rm -it -v C:/dev/trees/cpp:/project aseychell/cps2004-oop-env`, replacing "C:/dev/trees/cpp" with the directory you want to work in.
 4. To make sure everything is setup correctly, execute `g++ --version`, `java -version` and`javac -version`
 5. Practice, Practice, Practice in both C++ and Java.
